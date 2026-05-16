@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            use this list to support you!
+        </title>
+          <script src="todo.js" defer></script>
+          <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
 
+    <div class="container">
+        <h1>My Todo List</h1>
+        <!-- To do list -->
+        <form id="todoForm">
+            <input type="text" id="todoInput" placeholder="Add a new task">
+            <!-- Has a text for the user to add an input -->
+            <button type="submit">Add</button>
+            <!-- Adds the user input into the to do form -->
+        </form>
+        <ul id="todoList"></ul>
+        <div class="stats">
+        <!-- his adds the input into a list which shows the tasks -->
+            <span id="totalTasks">Total: 0</span>
+            <span id="completedTasks">Completed: 0</span>
+            <!-- Makes the user have the total task and completed tasks so they can be on track -->
+        </div>
+    </div>
+
+  </body>
+    </html>
