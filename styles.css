@@ -1,1 +1,60 @@
+.container {
+    max-width: 600px; /* Maximum width */
+    margin: 2rem auto; /* Center the container with margin */
+    padding: 1rem; /* Padding inside the container */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Light shadow effect around the container */
+}
 
+/* # for ids*/
+#todoForm {
+    display: flex; /* Flexbox layout for input and button */
+    gap: 1rem; /* Space between the input and button */
+    margin-bottom: 1rem; /* Space below the form */
+}
+
+
+#todoInput {
+    flex: 1; /* The input takes all available space */
+    padding: 0.5rem; /* Padding inside the input */
+    border: 1px solid #ddd; /* Light border around the input */
+    border-radius: 4px; /* Rounded corners */
+}
+
+
+button {
+    padding: 0.5rem 1rem; /* Padding inside the button (vertical and horizontal) */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+#todoList {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding around the list */
+}
+
+
+.todo-item {
+    display: flex; /* Flexbox layout for each to-do item */
+    align-items: center; /* Align items vertically in the center */
+    gap: 0.5rem; /* Space between the checkbox and text */
+    padding: 0.5rem; /* Padding inside each to-do item */
+    border-bottom: 1px solid #eee; /* Light border separating each item */
+}
+
+
+.completed {
+    text-decoration: line-through; /* Strike-through text for tasks */
+    color: #888; /* Gray color for text */
+}
+
+
+.stats {
+    display: flex; /* Flexbox layout*/
+    justify-content: space-between; /* Space between the stats elements */
+    margin-top: 1rem; /* Space on top */
+    color: #666; /* Lighter gray text for stats */
+    }
